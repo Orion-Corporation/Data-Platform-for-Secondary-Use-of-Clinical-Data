@@ -1,5 +1,27 @@
 # Data Platform for Secondary Use of Clinical Studies Data
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Data Types](#data-types)
+  - [Initial scope](#initial-scope)
+  - [Data classification and access assumptions](#data-classification-and-access-assumptions)
+- [Architecture](#architecture)
+  - [High-level architecture](#high-level-architecture)
+  - [Ingestion approach](#ingestion-approach)
+  - [Initial storage model: Bronze layer](#initial-storage-model-bronze-layer)
+  - [Basic ingestion checks and documentation](#basic-ingestion-checks-and-documentation)
+  - [Future architecture](#future-architecture)
+- [Business Value](#business-value)
+  - [Accelerate drug-discovery research](#accelerate-drug-discovery-research)
+  - [Bring clinical and preclinical evidence together](#bring-clinical-and-preclinical-evidence-together)
+  - [Improve self-service access to data](#improve-self-service-access-to-data)
+  - [Enable future research applications](#enable-future-research-applications)
+- [Release Plan](#release-plan)
+  - [Release 1 — Accessible clinical data catalogue](#release-1--accessible-clinical-data-catalogue)
+  - [Release 2 and beyond — Cross-study research enablement](#release-2-and-beyond--cross-study-research-enablement)
+- [Ownership and Responsibilities](#ownership-and-responsibilities)
+
 ## Overview
 
 The Data Platform for Secondary Use of Clinical Studies Data will make
